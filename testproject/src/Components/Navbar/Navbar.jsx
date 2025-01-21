@@ -13,6 +13,8 @@ const Navbar = () => {
         <li>Favourites</li>
         <li><button className='btn'>Contact us</button></li>
       </ul>
+      
+
     </nav>
   )
 }
