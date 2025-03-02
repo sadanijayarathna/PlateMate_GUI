@@ -1,4 +1,4 @@
-/*.hero{
+.header{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(rgba(35, 36, 36, 0.7),rgba(8,0,58,0.7)),url('../../assets/hero.png');
@@ -7,21 +7,23 @@
     display: flex;
     align-items: center;
     justify-content: right;
+    padding-right: 8%; 
+    padding-left: 5%;
     
 } 
-.hero-text{
+.header-contents{
     text-align: right;
     max-width: 800px;
     animation: fadeIn 3s;
 }
-.hero-text h1{
+.header-contents h1{
     font-size: 60px;
     font-weight: 600;
     animation: fadeIn 3s;
 }
-.hero-text p{
+.header-contents p{
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
     animation: fadeIn 3s;
-} */
+}

@@ -15,4 +15,4 @@ import dark_arrow from '../../assets/dark_arrow.png'
    )
  }
 
-export default Hero
+export default Hero;

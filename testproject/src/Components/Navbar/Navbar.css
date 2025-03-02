@@ -20,3 +20,49 @@ nav ul li{
     margin: 5px 20px;
     font-size: 16px;
 }
+.signin {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .signin-btn {
+    background: #531e04;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .signin-btn:hover {
+    background: #d77a50;
+  }
+
+  .navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid  #531e04;
+  }
+  .navbar li{
+    cursor: pointer;
+  }
+
+.navbar-search-icon{
+position: relative;
+}
+.navbar-search-icon .dot {
+position: absolute;
+min-width: 10px;
+min-height: 10px;
+background-color: rgb(237, 59, 28);
+border-radius: 5px;
+top: -8px;
+right: -8px;
+}
