@@ -84,10 +84,10 @@ export const assets = {
 }
 
 export const menu_list = [
-    // {
-    //     menu_name: "Salad",
-    //     menu_image: salad
-    // },
+    {
+        menu_name: "Salad",
+        menu_image: menu_1
+    },
     {
         menu_name: "Rolls",
         menu_image: menu_2
@@ -124,7 +124,18 @@ export const food_list = [
         image: food_1,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Salad",
+        ingredients: ["Lettuce", "Tomato", "Cucumber", "Olives", "Feta Cheese", "Olive Oil", "Oregano"],
+        recipe: [
+          "Chop lettuce, tomatoes, and cucumber into bite-sized pieces.",
+          "Add black olives and crumbled feta cheese.",
+          "Drizzle olive oil and sprinkle oregano.",
+          "Toss well and serve fresh."
+        ]
+
+
+
+
     },
     {
         _id: "2",
@@ -132,77 +143,196 @@ export const food_list = [
         image: food_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Salad",
+        ingredients: ["Carrot", "Cucumber", "Tomato", "Lettuce", "Lemon Juice", "Salt", "Pepper"],
+        recipe: [
+          "Slice all vegetables thinly.",
+          "Mix in a bowl and drizzle lemon juice.",
+          "Season with salt and pepper.",
+          "Serve fresh as a side dish."
+        ]
+
+
+
+
     }, {
         _id: "3",
         name: "Clover Salad",
         image: food_3,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Salad",
+        ingredients: ["Clover Leaves", "Orange Segments", "Almonds", "Honey", "Olive Oil", "Salt"],
+        recipe: [
+          "Mix clover leaves with orange segments.",
+          "Add toasted almonds for crunch.",
+          "Drizzle with honey and olive oil.",
+          "Toss well and serve."
+        ]
+
+
+
     }, {
         _id: "4",
         name: "Chicken Salad",
         image: food_4,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Salad",
+        ingredients: ["Grilled Chicken", "Lettuce", "Cucumber", "Mayonnaise", "Mustard", "Salt", "Pepper"],
+        recipe: [
+          "Chop grilled chicken into bite-sized pieces.",
+          "Mix with chopped lettuce and cucumber.",
+          "Combine mayonnaise and mustard for dressing.",
+          "Toss everything together and serve chilled."
+        ]
+
+
+
+
     }, {
         _id: "5",
         name: "Lasagna Rolls",
         image: food_5,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Rolls",
+        ingredients: ["Lasagna Sheets", "Ricotta Cheese", "Tomato Sauce", "Mozzarella", "Basil"],
+        recipe: [
+          "Boil lasagna sheets until soft.",
+          "Spread ricotta cheese and basil on each sheet.",
+          "Roll up and place in a baking dish.",
+          "Cover with tomato sauce and mozzarella.",
+          "Bake at 180°C for 20 minutes."
+        ]
+
+
+
+
+
     }, {
         _id: "6",
         name: "Peri Peri Rolls",
         image: food_6,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Rolls",
+        ingredients: ["Chicken", "Peri Peri Sauce", "Tortilla", "Lettuce", "Mayonnaise"],
+        recipe: [
+          "Grill chicken with peri peri sauce.",
+          "Spread mayonnaise on a tortilla.",
+          "Place grilled chicken and lettuce on it.",
+          "Roll up tightly and serve."
+        ]
+
+
+
+
     }, {
         _id: "7",
         name: "Chicken Rolls",
         image: food_7,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Rolls",
+        ingredients: ["Chicken Strips", "Bread Crumbs", "Eggs", "Flour", "Oil", "Salt"],
+        recipe: [
+          "Coat chicken strips in flour, beaten eggs, and breadcrumbs.",
+          "Deep fry until golden brown.",
+          "Wrap in a tortilla and serve with dipping sauce."
+        ]
+
+
+
+
+
+
+
     }, {
         _id: "8",
         name: "Veg Rolls",
         image: food_8,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Rolls",
+        ingredients: ["Cabbage", "Carrot", "Capsicum", "Spring Roll Sheets", "Soy Sauce", "Oil"],
+        recipe: [
+          "Stir-fry vegetables with soy sauce.",
+          "Fill spring roll sheets with the vegetable mix.",
+          "Roll tightly and deep fry until golden brown.",
+          "Serve hot with chili sauce."
+        ]
+
+
+
+
     }, {
         _id: "9",
         name: "Ripple Ice Cream",
         image: food_9,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Deserts",
+        ingredients: ["Vanilla Ice Cream", "Strawberry Sauce", "Sugar"],
+        recipe: [
+          "Swirl strawberry sauce into vanilla ice cream.",
+          "Freeze until firm and serve."
+        ]
+
+
+
     }, {
         _id: "10",
         name: "Fruit Ice Cream",
         image: food_10,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Deserts",
+        ingredients: ["Milk", "Sugar", "Mango", "Banana", "Strawberries"],
+        recipe: [
+          "Blend milk, sugar, and fruits until smooth.",
+          "Freeze for 6 hours and serve."
+        ]
+
+
+
     }, {
         _id: "11",
         name: "Jar Ice Cream",
         image: food_11,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Deserts",
+        ingredients: ["Vanilla Ice Cream", "Chocolate Ice Cream", "Crushed Cookies", "Whipped Cream", "Caramel Sauce"],
+        recipe: [
+          "Layer vanilla ice cream, chocolate ice cream, and crushed cookies in a jar.",
+          "Repeat layering until the jar is full.",
+          "Top with whipped cream and drizzle caramel sauce.",
+          "Serve chilled."
+        ]
+
+
+
+
+
     }, {
         _id: "12",
         name: "Vanilla Ice Cream",
         image: food_12,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Deserts",
+        ingredients: ["Milk", "Cream", "Sugar", "Vanilla Extract"],
+        recipe: [
+          "Heat milk, cream, and sugar until combined.",
+          "Add vanilla extract and stir well.",
+          "Freeze for 6 hours, stirring every 2 hours.",
+          "Serve chilled."
+        ]
+
+
+
+
     },
     {
         _id: "13",
@@ -210,7 +340,16 @@ export const food_list = [
         image: food_13,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Sandwich",
+        ingredients: ["Bread", "Grilled Chicken", "Lettuce", "Mayonnaise", "Tomato"],
+        recipe: [
+          "Grill chicken until fully cooked.",
+          "Assemble sandwich with lettuce, tomato, and mayonnaise.",
+          "Toast for extra crispiness and serve."
+        ]
+
+
+
     },
     {
         _id: "14",
@@ -218,77 +357,192 @@ export const food_list = [
         image: food_14,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Sandwich",
+        ingredients: ["Whole Wheat Bread", "Lettuce", "Tomato", "Cucumber", "Hummus", "Avocado"],
+        recipe: [
+          "Spread hummus on whole wheat bread.",
+          "Layer with lettuce, tomato, cucumber, and avocado slices.",
+          "Close the sandwich and serve fresh."
+        ]
+
+
+
+
     }, {
         _id: "15",
         name: "Grilled Sandwich",
         image: food_15,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Sandwich",
+        ingredients: ["Bread", "Cheese", "Tomato", "Butter", "Capsicum"],
+        recipe: [
+          "Butter the bread slices on both sides.",
+          "Layer cheese, tomato, and capsicum between two slices.",
+          "Grill until golden brown and serve hot."
+        ]
+
+
+
     }, {
         _id: "16",
         name: "Bread Sandwich",
         image: food_16,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Sandwich",
+        ingredients: ["Bread", "Butter", "Cucumber", "Tomato", "Cheese"],
+        recipe: [
+          "Butter two slices of bread.",
+          "Place sliced cucumber, tomato, and cheese on one slice.",
+          "Cover with the second slice and serve fresh."
+        ]
+
+
+
+
     }, {
         _id: "17",
         name: "Cup Cake",
         image: food_17,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Cake",
+        ingredients: ["Flour", "Eggs", "Butter", "Milk", "Sugar", "Baking Powder"],
+        recipe: [
+          "Mix all ingredients into a smooth batter.",
+          "Pour into cupcake molds and bake at 180°C for 15 minutes.",
+          "Let cool and serve with frosting."
+        ]
+
+
+
+
     }, {
         _id: "18",
         name: "Vegan Cake",
         image: food_18,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Cake",
+        ingredients: ["Flour", "Coconut Oil", "Almond Milk", "Sugar", "Baking Powder", "Vanilla Extract"],
+        recipe: [
+          "Mix flour, sugar, and baking powder in a bowl.",
+          "Add coconut oil, almond milk, and vanilla extract.",
+          "Stir until smooth and pour into a cake pan.",
+          "Bake at 180°C for 25 minutes and let cool before serving."
+        ]
+
+
+
+
     }, {
         _id: "19",
         name: "Butterscotch Cake",
         image: food_19,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Cake",
+        ingredients: ["Flour", "Butter", "Sugar", "Butterscotch Essence", "Eggs", "Baking Powder"],
+        recipe: [
+          "Cream butter and sugar together.",
+          "Add eggs, flour, baking powder, and butterscotch essence.",
+          "Mix until smooth and bake at 180°C for 30 minutes.",
+          "Let cool and serve with caramel drizzle."
+        ]
+
+
+
+
     }, {
         _id: "20",
         name: "Sliced Cake",
         image: food_20,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Cake",
+        ingredients: ["Flour", "Eggs", "Butter", "Sugar", "Vanilla Essence", "Baking Powder"],
+        recipe: [
+          "Mix flour, sugar, and baking powder in a bowl.",
+          "Add eggs, butter, and vanilla essence.",
+          "Bake at 180°C for 20 minutes.",
+          "Cut into slices and serve."
+        ]
+
+
+
+
     }, {
         _id: "21",
         name: "Garlic Mushroom ",
         image: food_21,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        ingredients: ["Mushrooms", "Garlic", "Butter", "Parsley", "Salt", "Pepper"],
+        recipe: [
+          "Heat butter in a pan.",
+          "Add garlic and sauté until fragrant.",
+          "Add mushrooms and cook until golden brown.",
+          "Season with salt and pepper.",
+          "Garnish with parsley and serve hot."
+        ]
+
     }, {
         _id: "22",
         name: "Fried Cauliflower",
         image: food_22,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        ingredients: ["Cauliflower", "Flour", "Eggs", "Oil", "Salt", "Pepper"],
+        recipe: [
+      "Cut cauliflower into florets.",
+      "Dip in flour, then beaten eggs, then coat with breadcrumbs.",
+      "Deep fry until golden brown.",
+      "Season and serve with your favorite dip."
+    ]
+
+
     }, {
         _id: "23",
         name: "Mix Veg Pulao",
         image: food_23,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        ingredients: ["Basmati Rice", "Carrot", "Peas", "Beans", "Onion", "Tomato", "Spices"],
+  recipe: [
+    "Wash and soak basmati rice for 20 minutes.",
+    "Heat oil in a pan and sauté onions until golden brown.",
+    "Add chopped vegetables and stir-fry for 2 minutes.",
+    "Add spices like cumin, coriander, and garam masala.",
+    "Mix in the soaked rice and add water in a 1:2 ratio.",
+    "Cover and cook on low heat until rice is fluffy.",
+    "Garnish with coriander and serve hot."
+  ]
+
+
+
     }, {
         _id: "24",
         name: "Rice Zucchini",
         image: food_24,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        ingredients: ["Rice", "Zucchini", "Garlic", "Olive Oil", "Salt", "Pepper", "Parmesan Cheese"],
+        recipe: [
+          "Cook rice separately until soft and fluffy.",
+          "Heat olive oil in a pan and sauté garlic until fragrant.",
+          "Add grated zucchini and cook for 3-4 minutes.",
+          "Mix in the cooked rice and season with salt and pepper.",
+          "Sprinkle parmesan cheese and mix well.",
+          "Serve warm as a light meal or side dish."
+        ]
+
+
+
     },
     {
         _id: "25",
@@ -296,7 +550,18 @@ export const food_list = [
         image: food_25,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pasta",
+        ingredients: ["Pasta", "Cheddar Cheese", "Parmesan Cheese", "Milk", "Butter", "Salt", "Pepper"],
+        recipe: [
+          "Boil pasta until al dente and drain.",
+          "In a pan, melt butter and add milk, stirring constantly.",
+          "Add cheddar and parmesan cheese, and stir until melted.",
+          "Mix the cooked pasta with the cheese sauce.",
+          "Season with salt and pepper and serve hot."
+        ]
+
+
+
     },
     {
         _id: "26",
@@ -304,48 +569,130 @@ export const food_list = [
         image: food_26,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pasta",
+        ingredients: ["Pasta", "Tomato Puree", "Garlic", "Onion", "Basil", "Olive Oil", "Salt"],
+        recipe: [
+          "Cook pasta as per instructions and drain.",
+          "Heat olive oil in a pan and sauté garlic and onions.",
+          "Add tomato puree and cook until sauce thickens.",
+          "Season with salt and basil, then mix in the pasta.",
+          "Serve hot with grated cheese on top."
+        ]
+
+
+
     }, {
         _id: "27",
         name: "Creamy Pasta",
         image: food_27,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pasta",
+        description: "A rich and creamy pasta dish with a delicious white sauce.",
+        category: "Pasta",
+        ingredients: ["Pasta", "Heavy Cream", "Garlic", "Parmesan Cheese", "Butter", "Salt", "Pepper"],
+        recipe: [
+          "Cook pasta and drain well.",
+          "In a pan, heat butter and sauté garlic.",
+          "Add heavy cream and let it simmer.",
+          "Stir in parmesan cheese until melted.",
+          "Mix the cooked pasta and season with salt and pepper.",
+          "Serve warm with extra cheese on top."
+        ]
+
+
+
+
     }, {
         _id: "28",
         name: "Chicken Pasta",
         image: food_28,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pasta",
+        ingredients: ["Pasta", "Chicken Breast", "Garlic", "Onion", "Cream", "Salt", "Pepper"],
+        recipe: [
+          "Boil pasta and set aside.",
+          "Cut chicken breast into pieces and sauté with garlic and onion.",
+          "Add cream and cook until the sauce thickens.",
+          "Mix in the cooked pasta and season with salt and pepper.",
+          "Serve hot with grated cheese."
+        ]
+
+
+
+
     }, {
         _id: "29",
         name: "Buttter Noodles",
         image: food_29,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodles",
+        ingredients: ["Noodles", "Butter", "Garlic", "Parsley", "Salt", "Pepper"],
+        recipe: [
+          "Cook noodles as per packet instructions.",
+          "Melt butter in a pan and add minced garlic.",
+          "Toss in the cooked noodles and mix well.",
+          "Season with salt, pepper, and parsley.",
+          "Serve hot with an optional sprinkle of cheese."
+        ]
+
+
+
+
     }, {
         _id: "30",
         name: "Veg Noodles",
         image: food_30,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodles",
+        ingredients: ["Noodles", "Carrot", "Bell Peppers", "Cabbage", "Soy Sauce", "Salt", "Oil"],
+        recipe: [
+          "Cook noodles and drain well.",
+          "Heat oil in a pan and stir-fry chopped vegetables.",
+          "Add cooked noodles and soy sauce.",
+          "Toss well and season with salt.",
+          "Serve hot with chili flakes."
+        ]
+
+
+
+
     }, {
         _id: "31",
         name: "Somen Noodles",
         image: food_31,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodles",
+        ingredients: ["Somen Noodles", "Soy Sauce", "Dashi", "Spring Onion", "Ginger"],
+        recipe: [
+          "Cook somen noodles and rinse under cold water.",
+          "Prepare a dipping sauce using soy sauce, dashi, and ginger.",
+          "Serve noodles cold with dipping sauce and chopped spring onions."
+        ]
+
+
+
+
     }, {
         _id: "32",
         name: "Cooked Noodles",
         image: food_32,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodles",
+        ingredients: ["Noodles", "Water", "Salt", "Oil"],
+        recipe: [
+          "Boil water in a pot and add salt.",
+          "Cook noodles until soft but firm.",
+          "Drain and toss with a little oil to prevent sticking.",
+          "Serve as is or with your favorite sauce."
+        ]
+
+
+
     }
 ]
