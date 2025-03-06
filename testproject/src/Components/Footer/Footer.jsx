@@ -6,9 +6,9 @@ import { assets } from '../../assets/frontend_assets/assets'
 const Footer = () => {
   return (
     <div className='footer' id='footer'>
-        <div className="footer-counter">
+        <div className="footer-content">
 <div className="footer-content-left">
-<img src={assets.logo} alt='' />
+<img src={assets.logonew} alt='' />
 <p>Delicious meals,Great flavors, endless memories, crafted with love.Every bite tells a story – embrace the experience. © 2025 PlateMate.</p>
 <div className="footer-social-icons">
 <img src={assets.facebook_icon} alt="" />

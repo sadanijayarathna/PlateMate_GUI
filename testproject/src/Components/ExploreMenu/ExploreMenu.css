@@ -45,6 +45,12 @@
 .explore-menu-list-item .active {
     border: 2px solid rgb(66, 15, 6);
     padding: 2px;
-    transition: border 0.3s ease-in-out;
-    
+    transition: border 0.3s ease-in-out;  
+}
+@media(max-width:1050px){
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+   
 }
